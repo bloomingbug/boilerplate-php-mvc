@@ -1,0 +1,27 @@
+{
+    "name": "tarmuji/belajar-php-mvc",
+    "description": "Belajar PHP MVC",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tarmuji",
+            "email": "tarmuji1514@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tarmuji\\Belajar\\PHP\\MVC\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tarmuji\\Belajar\\PHP\\MVC\\": "tests/"
+        }
+    }
+}
